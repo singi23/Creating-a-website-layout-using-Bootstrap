@@ -1,0 +1,94 @@
+nav-link {
+	margin: 0 0.3rem;
+}
+
+button.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+nav a {
+    color: #7D7D7D;
+}
+
+nav a.active,
+nav a:active,
+nav a:hover {
+  color: black;
+}
+
+#icons {
+    margin: 5rem;
+}
+
+#icons > div {
+	padding: 1.5rem;
+}
+
+#images {
+    margin: 5rem;
+}
+
+#tables {
+	margin: 5rem;
+}
+
+#tables p {
+	color: #a8a8a8;
+	opacity: 0.5;
+}
+
+section:last-of-type {
+	background-color: rgb(56, 56, 56);
+	padding-bottom: 0.5rem;
+}
+
+footer {
+    background-color: rgb(17, 17, 17);
+}
+
+section:last-of-type h4 {
+	margin-bottom: 1rem;
+}
+
+#hero {
+	position: relative;
+}
+
+#green_hero {
+	background-color: #30c98b;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	max-width: 85%;
+}
+
+@media screen and (max-width: 576px) {
+	#green_hero {
+	  top: 35%;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+	#green_hero h4 {
+	  padding: 0 10px;
+	  font-size: 16px;
+	  line-height: 1.8;
+	}
+}
+
+@media (max-width: 768px) {
+	#icons p {
+	  display: -webkit-box;
+	  -webkit-line-clamp: 2;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	}
+}
